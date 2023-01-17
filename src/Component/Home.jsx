@@ -4,8 +4,17 @@ function Home(){
     return <div>
 <h1>Home Page</h1>
 
-<Link to="/">Home</Link>
-<Link to="/all">All</Link>
+<button><Link to="/all">All</Link></button>
+<button><Link to="/js">JS</Link></button>
+<button><Link to="/css">CSS</Link></button>
+<button>
+<Link to="/html">HTML</Link></button>
+
+
+
+
+
+
 
     </div>
 }

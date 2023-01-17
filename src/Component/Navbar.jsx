@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom"
 
 function Navbar(){
 
@@ -16,15 +16,16 @@ function Navbar(){
         }}
         >
 <div>
-
+<Link to="/">Home</Link>
 </div>
 
-<div style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
+<div style={{display:"flex",justifyContent:"space-around",alignItems:"center",width:"30%"}}>
 
-    <h4>All</h4>
-    <h4>Javascript</h4>
-    <h4>HTML</h4>
-    <h4>CSS</h4>
+<Link to="/all">All</Link>
+<Link to="/js">JS</Link>
+<Link to="/css">CSS</Link>
+<Link to="/html">HTML</Link>
+
 
 </div>
         </div>
